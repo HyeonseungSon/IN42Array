@@ -111,7 +111,7 @@ fun main() {
     println("1000을 포함하는가 : ${1000 in array1}") // => 1000을 포함하는가 : false
 
     val array15 = arrayOf(100, 200, 300)
-    // println("최대 : ${array15.max()}")
+    println("최대 : ${array15.max()}")
     // println("최소 : ${array1.min()}")
 
     val array12 = arrayOf(5, 1, 3, 7, 10, 8)
