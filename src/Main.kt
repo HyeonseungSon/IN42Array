@@ -57,8 +57,15 @@ fun main() {
 
     println("array8 : $array8")
     println("array8 : ${array8.contentToString()}")
+    // 다차원 배열 출력 방법 .contentDeepToString()
     println("array8 : ${array8.contentDeepToString()}")
 
+    for (item1 in array8) {
+        println("item1 : $item1")
+        for (item2 in item1) {
+            println("array8.item : $item2")
+        }
+    }
 }
 
 
