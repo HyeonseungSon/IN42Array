@@ -51,7 +51,13 @@ fun main() {
         count++
     }
 
+    println("----- Multi-Dimensional Array -----")
 
+    val array8 = arrayOf(arrayOf(10,20,30), arrayOf(40,50,60), arrayOf(70,80,90))
+
+    println("array8 : $array8")
+    println("array8 : ${array8.contentToString()}")
+    println("array8 : ${array8.contentDeepToString()}")
 
 }
 
